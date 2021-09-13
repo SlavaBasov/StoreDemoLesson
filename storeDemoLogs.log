@@ -1,0 +1,505 @@
+[INFO ] 2021-09-13 00:12:30.274 [http-nio-8081-exec-2] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:12:30.280 [http-nio-8081-exec-2] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:12:30.662 [http-nio-8081-exec-2] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:12:42.172 [http-nio-8081-exec-9] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:12:42.172 [http-nio-8081-exec-9] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:12:42.174 [http-nio-8081-exec-9] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:13:15.651 [http-nio-8081-exec-4] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:13:15.651 [http-nio-8081-exec-4] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:13:15.652 [http-nio-8081-exec-4] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:13:23.144 [http-nio-8081-exec-1] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:13:23.144 [http-nio-8081-exec-1] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:13:23.146 [http-nio-8081-exec-1] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:14:49.938 [http-nio-8081-exec-12] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:14:49.938 [http-nio-8081-exec-12] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:14:49.939 [http-nio-8081-exec-12] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:16:15.651 [http-nio-8081-exec-9] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:16:15.658 [http-nio-8081-exec-9] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:16:15.659 [http-nio-8081-exec-9] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:16:15.659 [http-nio-8081-exec-9] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:16:15.702 [http-nio-8081-exec-9] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:16:43.999 [http-nio-8081-exec-4] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:16:44.005 [http-nio-8081-exec-4] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:16:44.382 [http-nio-8081-exec-4] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:16:56.746 [http-nio-8081-exec-1] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:16:56.747 [http-nio-8081-exec-1] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:16:56.749 [http-nio-8081-exec-1] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:03.983 [http-nio-8081-exec-6] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:03.983 [http-nio-8081-exec-6] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:17:03.985 [http-nio-8081-exec-6] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:03.985 [http-nio-8081-exec-6] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:04.014 [http-nio-8081-exec-6] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:05.856 [http-nio-8081-exec-5] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:05.856 [http-nio-8081-exec-5] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:17:05.858 [http-nio-8081-exec-5] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:05.858 [http-nio-8081-exec-5] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:05.909 [http-nio-8081-exec-5] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:06.391 [http-nio-8081-exec-14] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:06.392 [http-nio-8081-exec-14] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:17:06.393 [http-nio-8081-exec-14] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:06.393 [http-nio-8081-exec-14] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:06.407 [http-nio-8081-exec-14] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:06.772 [http-nio-8081-exec-10] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:06.773 [http-nio-8081-exec-10] AddProductServlet - найден id продукта = 4
+[INFO ] 2021-09-13 00:17:06.774 [http-nio-8081-exec-10] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:06.775 [http-nio-8081-exec-10] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:06.780 [http-nio-8081-exec-10] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:07.583 [http-nio-8081-exec-12] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:07.584 [http-nio-8081-exec-12] AddProductServlet - найден id продукта = 5
+[INFO ] 2021-09-13 00:17:07.585 [http-nio-8081-exec-12] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:07.585 [http-nio-8081-exec-12] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:07.592 [http-nio-8081-exec-12] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:10.146 [http-nio-8081-exec-2] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:10.146 [http-nio-8081-exec-2] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:17:10.147 [http-nio-8081-exec-2] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:10.148 [http-nio-8081-exec-2] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:10.201 [http-nio-8081-exec-2] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:23.241 [http-nio-8081-exec-15] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:23.249 [http-nio-8081-exec-15] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:17:23.618 [http-nio-8081-exec-15] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:25.775 [http-nio-8081-exec-11] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:25.775 [http-nio-8081-exec-11] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:17:25.777 [http-nio-8081-exec-11] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:37.183 [http-nio-8081-exec-17] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:37.183 [http-nio-8081-exec-17] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:17:37.184 [http-nio-8081-exec-17] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:37.185 [http-nio-8081-exec-17] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:37.222 [http-nio-8081-exec-17] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:17:38.272 [http-nio-8081-exec-20] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:38.272 [http-nio-8081-exec-20] AddProductServlet - найден id продукта = 4
+[INFO ] 2021-09-13 00:17:38.274 [http-nio-8081-exec-20] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:17:38.274 [http-nio-8081-exec-20] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:17:38.281 [http-nio-8081-exec-20] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:18:06.756 [http-nio-8081-exec-14] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:18:06.762 [http-nio-8081-exec-14] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:18:06.763 [http-nio-8081-exec-14] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:18:06.764 [http-nio-8081-exec-14] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:18:06.796 [http-nio-8081-exec-14] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:18:21.155 [http-nio-8081-exec-26] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:18:21.155 [http-nio-8081-exec-26] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:18:21.156 [http-nio-8081-exec-26] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:18:21.157 [http-nio-8081-exec-26] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:18:21.216 [http-nio-8081-exec-26] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:18:30.672 [http-nio-8081-exec-30] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:18:30.673 [http-nio-8081-exec-30] AddProductServlet - найден id продукта = 4
+[INFO ] 2021-09-13 00:18:30.674 [http-nio-8081-exec-30] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:18:30.674 [http-nio-8081-exec-30] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:18:30.750 [http-nio-8081-exec-30] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:19:04.757 [http-nio-8081-exec-34] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:19:04.762 [http-nio-8081-exec-34] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:19:04.763 [http-nio-8081-exec-34] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:19:04.764 [http-nio-8081-exec-34] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:19:04.770 [http-nio-8081-exec-34] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:26:38.938 [http-nio-8081-exec-42] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:26:38.943 [http-nio-8081-exec-42] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:26:38.945 [http-nio-8081-exec-42] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:26:54.330 [http-nio-8081-exec-38] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:26:54.330 [http-nio-8081-exec-38] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:26:54.331 [http-nio-8081-exec-38] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:27:21.632 [http-nio-8081-exec-40] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:27:21.632 [http-nio-8081-exec-40] AddProductServlet - найден id продукта = 5
+[INFO ] 2021-09-13 00:27:21.633 [http-nio-8081-exec-40] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:27:45.524 [http-nio-8081-exec-43] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:27:45.525 [http-nio-8081-exec-43] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:27:45.526 [http-nio-8081-exec-43] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:27:45.527 [http-nio-8081-exec-43] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:27:45.589 [http-nio-8081-exec-43] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:27:45.590 [http-nio-8081-exec-43] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:27:45.592 [http-nio-8081-exec-43] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:27:45.593 [http-nio-8081-exec-43] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:29:38.272 [http-nio-8081-exec-9] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:29:38.279 [http-nio-8081-exec-9] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:29:38.280 [http-nio-8081-exec-9] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:29:38.281 [http-nio-8081-exec-9] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:29:38.318 [http-nio-8081-exec-9] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:29:38.319 [http-nio-8081-exec-9] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:29:38.322 [http-nio-8081-exec-9] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:29:38.322 [http-nio-8081-exec-9] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:30:37.043 [http-nio-8081-exec-9] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:30:37.050 [http-nio-8081-exec-9] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:30:37.051 [http-nio-8081-exec-9] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:30:37.052 [http-nio-8081-exec-9] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:30:37.066 [http-nio-8081-exec-9] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:30:37.067 [http-nio-8081-exec-9] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:30:37.070 [http-nio-8081-exec-9] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:30:37.070 [http-nio-8081-exec-9] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:30:48.980 [http-nio-8081-exec-10] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:30:51.879 [http-nio-8081-exec-10] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:30:51.881 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:30:54.235 [http-nio-8081-exec-10] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:30:54.542 [http-nio-8081-exec-10] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:30:55.072 [http-nio-8081-exec-10] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:30:55.072 [http-nio-8081-exec-10] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:30:55.072 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:30:56.467 [http-nio-8081-exec-10] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:30:56.468 [http-nio-8081-exec-10] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:30:56.468 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:30:57.120 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:31:04.747 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:31:04.749 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:31:04.751 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт phone в лист продуктов
+[INFO ] 2021-09-13 00:31:04.751 [http-nio-8081-exec-10] ReceiptDAO - сформирован список продуктов [Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=3, name='phone', description='iphone', price=1500}]
+[INFO ] 2021-09-13 00:31:04.751 [http-nio-8081-exec-9] ReceiptDAO - сформирован список продуктов [Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}]
+[INFO ] 2021-09-13 00:32:19.620 [http-nio-8081-exec-9] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:32:19.627 [http-nio-8081-exec-9] AddProductServlet - найден id продукта = 4
+[INFO ] 2021-09-13 00:32:19.628 [http-nio-8081-exec-9] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:32:19.629 [http-nio-8081-exec-9] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:32:19.686 [http-nio-8081-exec-9] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:32:19.687 [http-nio-8081-exec-9] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:32:19.691 [http-nio-8081-exec-9] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:32:19.692 [http-nio-8081-exec-9] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:32:19.693 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:32:19.694 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:32:19.694 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:32:19.694 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт phone в лист продуктов
+[INFO ] 2021-09-13 00:32:19.694 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт microwave в лист продуктов
+[INFO ] 2021-09-13 00:32:19.699 [http-nio-8081-exec-9] ReceiptDAO - сформирован список продуктов [Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=3, name='phone', description='iphone', price=1500}, Product{id=4, name='microwave', description='LG microwave', price=300}]
+[INFO ] 2021-09-13 00:32:53.189 [http-nio-8081-exec-5] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:32:53.190 [http-nio-8081-exec-5] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:32:53.192 [http-nio-8081-exec-5] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:32:53.192 [http-nio-8081-exec-5] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:32:53.203 [http-nio-8081-exec-5] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:32:53.203 [http-nio-8081-exec-5] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:32:53.206 [http-nio-8081-exec-5] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:32:53.206 [http-nio-8081-exec-5] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:32:53.207 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:32:53.207 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:32:53.208 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт laptop в лист продуктов
+[INFO ] 2021-09-13 00:32:53.208 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт phone в лист продуктов
+[INFO ] 2021-09-13 00:32:53.208 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт microwave в лист продуктов
+[INFO ] 2021-09-13 00:32:53.208 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт monitor в лист продуктов
+[INFO ] 2021-09-13 00:32:53.208 [http-nio-8081-exec-5] ReceiptDAO - сформирован список продуктов [Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=2, name='laptop', description='lenovo legion', price=2500}, Product{id=3, name='phone', description='iphone', price=1500}, Product{id=4, name='microwave', description='LG microwave', price=300}, Product{id=1, name='monitor', description='LG monitor, the best monitor in the wordl', price=300}]
+[INFO ] 2021-09-13 00:37:12.886 [http-nio-8081-exec-3] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:37:12.894 [http-nio-8081-exec-3] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:37:12.895 [http-nio-8081-exec-3] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:37:12.896 [http-nio-8081-exec-3] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:37:12.936 [http-nio-8081-exec-3] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:37:12.936 [http-nio-8081-exec-3] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:37:12.939 [http-nio-8081-exec-3] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:37:12.940 [http-nio-8081-exec-3] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:37:12.941 [http-nio-8081-exec-3] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:37:12.946 [http-nio-8081-exec-3] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 00:38:32.546 [http-nio-8081-exec-10] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:32.552 [http-nio-8081-exec-10] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:38:32.553 [http-nio-8081-exec-10] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:32.553 [http-nio-8081-exec-10] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:32.607 [http-nio-8081-exec-10] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:32.608 [http-nio-8081-exec-10] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:32.610 [http-nio-8081-exec-10] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:32.610 [http-nio-8081-exec-10] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:32.612 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:32.612 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:32.612 [http-nio-8081-exec-10] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 00:38:36.639 [http-nio-8081-exec-3] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:36.639 [http-nio-8081-exec-3] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:38:36.641 [http-nio-8081-exec-3] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:36.641 [http-nio-8081-exec-3] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:36.698 [http-nio-8081-exec-3] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:36.698 [http-nio-8081-exec-3] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:36.700 [http-nio-8081-exec-3] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:36.700 [http-nio-8081-exec-3] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:36.702 [http-nio-8081-exec-3] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:36.702 [http-nio-8081-exec-3] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:36.702 [http-nio-8081-exec-3] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:36.702 [http-nio-8081-exec-3] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:38:38.635 [http-nio-8081-exec-13] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:38.635 [http-nio-8081-exec-13] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:38:38.636 [http-nio-8081-exec-13] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:38.637 [http-nio-8081-exec-13] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:38.643 [http-nio-8081-exec-13] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:38.643 [http-nio-8081-exec-13] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:38.645 [http-nio-8081-exec-13] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:38.645 [http-nio-8081-exec-13] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:38.646 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:38.646 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:38.646 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:38.646 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:38.646 [http-nio-8081-exec-13] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}]
+[INFO ] 2021-09-13 00:38:40.796 [http-nio-8081-exec-2] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:40.796 [http-nio-8081-exec-2] AddProductServlet - найден id продукта = 4
+[INFO ] 2021-09-13 00:38:40.797 [http-nio-8081-exec-2] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:40.798 [http-nio-8081-exec-2] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:40.805 [http-nio-8081-exec-2] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:40.805 [http-nio-8081-exec-2] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:40.808 [http-nio-8081-exec-2] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:40.808 [http-nio-8081-exec-2] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:40.809 [http-nio-8081-exec-2] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:40.809 [http-nio-8081-exec-2] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:40.809 [http-nio-8081-exec-2] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:40.810 [http-nio-8081-exec-2] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:40.810 [http-nio-8081-exec-2] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:40.810 [http-nio-8081-exec-2] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:38:48.177 [http-nio-8081-exec-16] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:48.177 [http-nio-8081-exec-16] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:38:48.178 [http-nio-8081-exec-16] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:48.179 [http-nio-8081-exec-16] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:48.225 [http-nio-8081-exec-16] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:48.225 [http-nio-8081-exec-16] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:48.227 [http-nio-8081-exec-16] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:48.227 [http-nio-8081-exec-16] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:48.228 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:48.228 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:48.228 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:48.228 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:48.228 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:48.228 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:48.229 [http-nio-8081-exec-16] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 00:38:49.309 [http-nio-8081-exec-13] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:49.310 [http-nio-8081-exec-13] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:38:49.311 [http-nio-8081-exec-13] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:49.311 [http-nio-8081-exec-13] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:49.353 [http-nio-8081-exec-13] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:49.353 [http-nio-8081-exec-13] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:49.354 [http-nio-8081-exec-13] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:49.355 [http-nio-8081-exec-13] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:49.356 [http-nio-8081-exec-13] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}]
+[INFO ] 2021-09-13 00:38:50.029 [http-nio-8081-exec-18] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:50.029 [http-nio-8081-exec-18] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:38:50.030 [http-nio-8081-exec-18] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:50.031 [http-nio-8081-exec-18] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:50.084 [http-nio-8081-exec-18] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:50.084 [http-nio-8081-exec-18] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:50.086 [http-nio-8081-exec-18] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:50.086 [http-nio-8081-exec-18] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:50.087 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:50.088 [http-nio-8081-exec-18] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:38:51.567 [http-nio-8081-exec-11] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:51.567 [http-nio-8081-exec-11] AddProductServlet - найден id продукта = 4
+[INFO ] 2021-09-13 00:38:51.569 [http-nio-8081-exec-11] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:51.569 [http-nio-8081-exec-11] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:51.615 [http-nio-8081-exec-11] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:51.615 [http-nio-8081-exec-11] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:51.617 [http-nio-8081-exec-11] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:51.617 [http-nio-8081-exec-11] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:51.618 [http-nio-8081-exec-11] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:38:53.055 [http-nio-8081-exec-19] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:53.055 [http-nio-8081-exec-19] AddProductServlet - найден id продукта = 3
+[INFO ] 2021-09-13 00:38:53.056 [http-nio-8081-exec-19] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:53.057 [http-nio-8081-exec-19] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:53.097 [http-nio-8081-exec-19] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:53.097 [http-nio-8081-exec-19] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:53.099 [http-nio-8081-exec-19] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:53.099 [http-nio-8081-exec-19] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:53.100 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:53.101 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:53.101 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:53.101 [http-nio-8081-exec-19] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:53.101 [http-nio-8081-exec-19] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:38:56.789 [http-nio-8081-exec-14] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:56.789 [http-nio-8081-exec-14] AddProductServlet - найден id продукта = 2
+[INFO ] 2021-09-13 00:38:56.791 [http-nio-8081-exec-14] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:38:56.791 [http-nio-8081-exec-14] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:38:56.838 [http-nio-8081-exec-14] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:38:56.838 [http-nio-8081-exec-14] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:38:56.841 [http-nio-8081-exec-14] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:38:56.841 [http-nio-8081-exec-14] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:38:56.841 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:56.842 [http-nio-8081-exec-14] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:38:56.843 [http-nio-8081-exec-14] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:40:08.910 [http-nio-8081-exec-17] AddProductServlet - вход в метод doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:40:08.916 [http-nio-8081-exec-17] AddProductServlet - найден id продукта = 1
+[INFO ] 2021-09-13 00:40:08.917 [http-nio-8081-exec-17] AddProductServlet - создан класс продукта в методе doGet класса AddProductServlet
+[INFO ] 2021-09-13 00:40:08.918 [http-nio-8081-exec-17] AddProductServlet - вытянут юзер user1 из сессии
+[INFO ] 2021-09-13 00:40:08.975 [http-nio-8081-exec-17] AddProductServlet - добавлена товар в корзину с результатом true
+[INFO ] 2021-09-13 00:40:08.975 [http-nio-8081-exec-17] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:40:08.978 [http-nio-8081-exec-17] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:40:08.979 [http-nio-8081-exec-17] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:40:08.980 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:40:08.981 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:40:08.982 [http-nio-8081-exec-17] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:46:27.551 [http-nio-8081-exec-9] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:46:27.561 [http-nio-8081-exec-9] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:46:27.562 [http-nio-8081-exec-9] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:46:27.564 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:46:27.564 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:46:27.565 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:46:27.565 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:46:27.565 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:46:27.566 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:46:27.566 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:46:27.566 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:46:27.566 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:46:27.567 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:46:27.567 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:46:27.567 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:46:27.567 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:46:27.572 [http-nio-8081-exec-9] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:48:29.596 [http-nio-8081-exec-7] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:29.604 [http-nio-8081-exec-7] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:29.604 [http-nio-8081-exec-7] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:29.606 [http-nio-8081-exec-7] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:29.606 [http-nio-8081-exec-7] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 00:48:31.956 [http-nio-8081-exec-9] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:31.959 [http-nio-8081-exec-9] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:31.959 [http-nio-8081-exec-9] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:31.960 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:31.960 [http-nio-8081-exec-9] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:31.960 [http-nio-8081-exec-9] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}]
+[INFO ] 2021-09-13 00:48:33.918 [http-nio-8081-exec-12] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:33.920 [http-nio-8081-exec-12] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:33.920 [http-nio-8081-exec-12] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:33.921 [http-nio-8081-exec-12] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:33.921 [http-nio-8081-exec-12] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:33.921 [http-nio-8081-exec-12] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:33.921 [http-nio-8081-exec-12] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:48:35.206 [http-nio-8081-exec-10] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:35.208 [http-nio-8081-exec-10] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:35.208 [http-nio-8081-exec-10] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:35.209 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:35.209 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:35.210 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:35.210 [http-nio-8081-exec-10] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:35.210 [http-nio-8081-exec-10] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:48:37.808 [http-nio-8081-exec-6] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:37.810 [http-nio-8081-exec-6] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:37.810 [http-nio-8081-exec-6] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:37.811 [http-nio-8081-exec-6] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:37.811 [http-nio-8081-exec-6] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:37.811 [http-nio-8081-exec-6] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:37.811 [http-nio-8081-exec-6] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:37.811 [http-nio-8081-exec-6] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:37.812 [http-nio-8081-exec-6] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:48:38.977 [http-nio-8081-exec-11] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:38.980 [http-nio-8081-exec-11] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:38.980 [http-nio-8081-exec-11] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:38.981 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:38.982 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:38.982 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:38.982 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:38.982 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:38.982 [http-nio-8081-exec-11] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:38.982 [http-nio-8081-exec-11] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:48:40.713 [http-nio-8081-exec-13] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:48:40.715 [http-nio-8081-exec-13] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:48:40.716 [http-nio-8081-exec-13] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:48:40.717 [http-nio-8081-exec-13] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:49:27.554 [http-nio-8081-exec-17] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:49:27.556 [http-nio-8081-exec-17] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:49:27.556 [http-nio-8081-exec-17] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:49:27.557 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:49:27.557 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:49:27.557 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:49:27.557 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:49:27.558 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:49:27.558 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:49:27.558 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:49:27.558 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:49:27.558 [http-nio-8081-exec-17] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:49:35.784 [http-nio-8081-exec-16] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:49:35.787 [http-nio-8081-exec-16] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:49:35.787 [http-nio-8081-exec-16] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:49:35.788 [http-nio-8081-exec-16] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:49:35.788 [http-nio-8081-exec-16] ReceiptDAO - сформирован список продуктов [Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:52:04.746 [http-nio-8081-exec-21] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:52:04.754 [http-nio-8081-exec-21] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:52:04.754 [http-nio-8081-exec-21] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:52:04.755 [http-nio-8081-exec-21] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:52:04.756 [http-nio-8081-exec-21] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 00:52:06.734 [http-nio-8081-exec-18] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:52:06.736 [http-nio-8081-exec-18] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:52:06.736 [http-nio-8081-exec-18] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:52:06.737 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:52:06.737 [http-nio-8081-exec-18] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:52:06.737 [http-nio-8081-exec-18] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-13 00:52:07.771 [http-nio-8081-exec-17] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:52:07.774 [http-nio-8081-exec-17] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:52:07.774 [http-nio-8081-exec-17] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:52:07.775 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:52:07.775 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:52:07.775 [http-nio-8081-exec-17] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:52:07.775 [http-nio-8081-exec-17] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:52:11.179 [http-nio-8081-exec-21] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:52:11.181 [http-nio-8081-exec-21] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:52:11.181 [http-nio-8081-exec-21] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:52:11.182 [http-nio-8081-exec-21] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:52:11.182 [http-nio-8081-exec-21] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:52:11.182 [http-nio-8081-exec-21] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:52:11.182 [http-nio-8081-exec-21] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:52:11.183 [http-nio-8081-exec-21] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 00:52:17.000 [http-nio-8081-exec-27] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 00:52:17.002 [http-nio-8081-exec-27] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 00:52:17.002 [http-nio-8081-exec-27] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 00:52:17.003 [http-nio-8081-exec-27] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:52:17.003 [http-nio-8081-exec-27] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 00:52:17.003 [http-nio-8081-exec-27] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 00:52:17.003 [http-nio-8081-exec-27] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 00:52:17.003 [http-nio-8081-exec-27] ReceiptDAO - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-13 00:52:17.003 [http-nio-8081-exec-27] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000}]
+[INFO ] 2021-09-13 18:28:00.242 [http-nio-8081-exec-1] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 18:28:00.264 [http-nio-8081-exec-1] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 18:28:00.264 [http-nio-8081-exec-1] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 18:28:00.267 [http-nio-8081-exec-1] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 18:28:00.276 [http-nio-8081-exec-1] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 18:36:11.878 [http-nio-8081-exec-2] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 18:36:11.883 [http-nio-8081-exec-2] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 18:36:11.884 [http-nio-8081-exec-2] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 18:36:11.887 [http-nio-8081-exec-2] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 18:36:11.888 [http-nio-8081-exec-2] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-13 18:36:17.057 [http-nio-8081-exec-5] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 18:36:17.061 [http-nio-8081-exec-5] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 18:36:17.061 [http-nio-8081-exec-5] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 18:36:17.063 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 18:36:17.064 [http-nio-8081-exec-5] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 18:36:17.064 [http-nio-8081-exec-5] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}]
+[INFO ] 2021-09-13 18:36:18.477 [http-nio-8081-exec-8] ReceiptDAO - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-13 18:36:18.482 [http-nio-8081-exec-8] ReceiptDAO - создан юзер user1 в методе findUser
+[INFO ] 2021-09-13 18:36:18.482 [http-nio-8081-exec-8] ReceiptDAO - найден юзер user1
+[INFO ] 2021-09-13 18:36:18.485 [http-nio-8081-exec-8] ReceiptDAO - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-13 18:36:18.485 [http-nio-8081-exec-8] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-13 18:36:18.485 [http-nio-8081-exec-8] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-13 18:36:18.486 [http-nio-8081-exec-8] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
