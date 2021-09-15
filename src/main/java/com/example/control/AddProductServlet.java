@@ -1,12 +1,10 @@
 package com.example.control;
 
-import com.example.dao.ProductDAO;
 import com.example.entity.Product;
 import com.example.entity.Receipt;
 import com.example.entity.User;
 import com.example.service.ProductService;
 import com.example.service.ReceiptService;
-import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

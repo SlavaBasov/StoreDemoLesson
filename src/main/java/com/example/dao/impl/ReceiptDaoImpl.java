@@ -1,6 +1,6 @@
-package com.example.dao;
+package com.example.dao.impl;
 
-import com.example.control.AddProductServlet;
+import com.example.dao.ReceiptDao;
 import com.example.dbconnection.DBConnection;
 import com.example.entity.Product;
 import com.example.entity.Receipt;
@@ -13,9 +13,9 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReceiptDAO implements BaseDAO<Receipt> {
+public class ReceiptDaoImpl implements ReceiptDao {
 
-    private static final Logger logger = LogManager.getLogger(ReceiptDAO.class);
+    private static final Logger logger = LogManager.getLogger(ReceiptDaoImpl.class);
 
     public static final String ADD_PRODUCT_IN_RECEIPT = "INSERT INTO receipt (user_id, product_id) VALUES (?,?)";
     public static final String FIND_USER_BY_USERID = "SELECT * FROM receipt JOIN user u on u.id = receipt.user_id WHERE user_id=?";
@@ -23,22 +23,23 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
     public static final String DELETE_ALL = "TRUNCATE TABLE receipt";
 
 
-    public ReceiptDAO() {
+    public ReceiptDaoImpl() {
     }
 
-    private static volatile ReceiptDAO INSTANCE = null;
+    private static volatile ReceiptDaoImpl INSTANCE = null;
 
-    public static ReceiptDAO getInstance() {
+    public static ReceiptDaoImpl getInstance() {
         if (INSTANCE == null) {
-            synchronized (ReceiptDAO.class) {
+            synchronized (ReceiptDaoImpl.class) {
                 if (INSTANCE == null) {
-                    INSTANCE = new ReceiptDAO();
+                    INSTANCE = new ReceiptDaoImpl();
                 }
             }
         }
         return INSTANCE;
     }
 
+    @Override
     public boolean add(User user, Product product) {
         boolean check = false;
         try (Connection connection = DBConnection.getConnection()) {
@@ -58,15 +59,6 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
     }
 
     @Override
-    public Receipt add(Receipt receipt) {
-        return null;
-    }
-
-    @Override
-    public Receipt findById(int id) {
-        return null;
-    }
-
     public Receipt getReceipt(int userId) {
         logger.log(Level.INFO, "вход в метод getReceipt c id = " + userId);
         User user = findUser(userId);
@@ -76,7 +68,8 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
         return new Receipt(user, products);
     }
 
-    private User findUser(int userId) {
+    @Override
+    public User findUser(int userId) {
         User user = null;
         try (Connection connection = DBConnection.getConnection()) {
             PreparedStatement statement = connection.prepareStatement(FIND_USER_BY_USERID);
@@ -84,7 +77,7 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
                 user = new User(resultSet.getInt(4), resultSet.getString(5), resultSet.getString(6),
-                        RoleDAO.getInstance().findById(resultSet.getInt(7)));
+                        RoleDaoImpl.getInstance().findById(resultSet.getInt(7)));
                 logger.log(Level.INFO, "создан юзер " + user.getLogin() + " в методе findUser");
             }
         } catch (SQLException e) {
@@ -93,7 +86,8 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
         return user;
     }
 
-    private List<Product> findAllProducts(int userId){
+    @Override
+    public List<Product> findAllProducts(int userId){
         List<Product> products = new ArrayList<>();
         try (Connection connection = DBConnection.getConnection()) {
             PreparedStatement statement = connection.prepareStatement(FIND_PRODUCTS_BY_USERID);
@@ -101,7 +95,7 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()) {
                 Product product = new Product(resultSet.getInt(4), resultSet.getString(5), resultSet.getString(6),
-                        resultSet.getInt(7));
+                        resultSet.getInt(7), resultSet.getString(8));
                 products.add(product);
                 logger.log(Level.INFO, "добавлен продукт " + product.getName() + " в лист продуктов");
             }
@@ -113,6 +107,7 @@ public class ReceiptDAO implements BaseDAO<Receipt> {
         return products;
     }
 
+    @Override
     public boolean deleteAll() {
         boolean check = false;
         try (Connection connection = DBConnection.getConnection()) {

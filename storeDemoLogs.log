@@ -503,3 +503,67 @@
 [INFO ] 2021-09-13 18:36:18.485 [http-nio-8081-exec-8] ReceiptDAO - добавлен продукт Ноутбук в лист продуктов
 [INFO ] 2021-09-13 18:36:18.485 [http-nio-8081-exec-8] ReceiptDAO - добавлен продукт Микроволновка в лист продуктов
 [INFO ] 2021-09-13 18:36:18.486 [http-nio-8081-exec-8] ReceiptDAO - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=3, name='Микроволновка', description='Samsung', price=300}]
+[INFO ] 2021-09-15 00:17:04.675 [http-nio-8081-exec-1] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:17:04.690 [http-nio-8081-exec-1] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:17:04.691 [http-nio-8081-exec-1] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:17:04.692 [http-nio-8081-exec-1] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:17:04.698 [http-nio-8081-exec-1] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-15 00:17:05.764 [http-nio-8081-exec-3] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:17:05.767 [http-nio-8081-exec-3] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:17:05.767 [http-nio-8081-exec-3] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:17:05.769 [http-nio-8081-exec-3] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:17:05.769 [http-nio-8081-exec-3] ReceiptDaoImpl - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-15 00:17:05.769 [http-nio-8081-exec-3] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}]
+[INFO ] 2021-09-15 00:17:06.850 [http-nio-8081-exec-6] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:17:06.852 [http-nio-8081-exec-6] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:17:06.853 [http-nio-8081-exec-6] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:17:06.854 [http-nio-8081-exec-6] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:17:06.854 [http-nio-8081-exec-6] ReceiptDaoImpl - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-15 00:17:06.854 [http-nio-8081-exec-6] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:17:06.854 [http-nio-8081-exec-6] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500}, Product{id=1, name='Монитор', description='LG', price=300}]
+[INFO ] 2021-09-15 00:39:04.606 [http-nio-8081-exec-28] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:39:04.618 [http-nio-8081-exec-28] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:39:04.618 [http-nio-8081-exec-28] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:39:04.620 [http-nio-8081-exec-28] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:39:04.625 [http-nio-8081-exec-28] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}]
+[INFO ] 2021-09-15 00:39:07.280 [http-nio-8081-exec-24] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:39:07.283 [http-nio-8081-exec-24] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:39:07.283 [http-nio-8081-exec-24] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:39:07.284 [http-nio-8081-exec-24] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:39:07.285 [http-nio-8081-exec-24] ReceiptDaoImpl - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-15 00:39:07.285 [http-nio-8081-exec-24] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}, Product{id=3, name='Микроволновка', description='Samsung', price=300, imgPath='pictures/microwave.jpg'}]
+[INFO ] 2021-09-15 00:39:09.824 [http-nio-8081-exec-16] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:39:09.826 [http-nio-8081-exec-16] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:39:09.826 [http-nio-8081-exec-16] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:39:09.827 [http-nio-8081-exec-16] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:39:09.827 [http-nio-8081-exec-16] ReceiptDaoImpl - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-15 00:39:09.827 [http-nio-8081-exec-16] ReceiptDaoImpl - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-15 00:39:09.827 [http-nio-8081-exec-16] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}, Product{id=3, name='Микроволновка', description='Samsung', price=300, imgPath='pictures/microwave.jpg'}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000, imgPath='pictures/iphone11.jpg'}]
+[INFO ] 2021-09-15 00:39:12.462 [http-nio-8081-exec-28] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:39:12.465 [http-nio-8081-exec-28] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:39:12.465 [http-nio-8081-exec-28] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:39:12.466 [http-nio-8081-exec-28] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:39:12.466 [http-nio-8081-exec-28] ReceiptDaoImpl - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-15 00:39:12.466 [http-nio-8081-exec-28] ReceiptDaoImpl - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-15 00:39:12.467 [http-nio-8081-exec-28] ReceiptDaoImpl - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-15 00:39:12.467 [http-nio-8081-exec-28] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500, imgPath='pictures/laptop.jpg'}, Product{id=3, name='Микроволновка', description='Samsung', price=300, imgPath='pictures/microwave.jpg'}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000, imgPath='pictures/iphone11.jpg'}]
+[INFO ] 2021-09-15 00:39:15.339 [http-nio-8081-exec-32] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:39:15.341 [http-nio-8081-exec-32] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:39:15.341 [http-nio-8081-exec-32] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:39:15.342 [http-nio-8081-exec-32] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:39:15.342 [http-nio-8081-exec-32] ReceiptDaoImpl - добавлен продукт Ноутбук в лист продуктов
+[INFO ] 2021-09-15 00:39:15.342 [http-nio-8081-exec-32] ReceiptDaoImpl - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-15 00:39:15.342 [http-nio-8081-exec-32] ReceiptDaoImpl - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-15 00:39:15.342 [http-nio-8081-exec-32] ReceiptDaoImpl - добавлен продукт Телефон  в лист продуктов
+[INFO ] 2021-09-15 00:39:15.342 [http-nio-8081-exec-32] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}, Product{id=2, name='Ноутбук', description='Lenovo Legion', price=2500, imgPath='pictures/laptop.jpg'}, Product{id=3, name='Микроволновка', description='Samsung', price=300, imgPath='pictures/microwave.jpg'}, Product{id=3, name='Микроволновка', description='Samsung', price=300, imgPath='pictures/microwave.jpg'}, Product{id=4, name='Телефон ', description='Iphone 11', price=3000, imgPath='pictures/iphone11.jpg'}]
+[INFO ] 2021-09-15 00:42:23.711 [http-nio-8081-exec-47] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:42:23.719 [http-nio-8081-exec-47] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:42:23.719 [http-nio-8081-exec-47] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:42:23.721 [http-nio-8081-exec-47] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:42:23.721 [http-nio-8081-exec-47] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}]
+[INFO ] 2021-09-15 00:42:26.812 [http-nio-8081-exec-48] ReceiptDaoImpl - вход в метод getReceipt c id = 2
+[INFO ] 2021-09-15 00:42:26.815 [http-nio-8081-exec-48] ReceiptDaoImpl - создан юзер user1 в методе findUser
+[INFO ] 2021-09-15 00:42:26.815 [http-nio-8081-exec-48] ReceiptDaoImpl - найден юзер user1
+[INFO ] 2021-09-15 00:42:26.816 [http-nio-8081-exec-48] ReceiptDaoImpl - добавлен продукт Монитор в лист продуктов
+[INFO ] 2021-09-15 00:42:26.816 [http-nio-8081-exec-48] ReceiptDaoImpl - добавлен продукт Микроволновка в лист продуктов
+[INFO ] 2021-09-15 00:42:26.817 [http-nio-8081-exec-48] ReceiptDaoImpl - сформирован список продуктов [Product{id=1, name='Монитор', description='LG', price=300, imgPath='pictures/monitor.jpeg'}, Product{id=3, name='Микроволновка', description='Samsung', price=300, imgPath='pictures/microwave.jpg'}]

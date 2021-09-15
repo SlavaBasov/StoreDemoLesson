@@ -1,6 +1,6 @@
 package com.example.service;
 
-import com.example.dao.ProductDAO;
+import com.example.dao.impl.ProductDaoImpl;
 import com.example.entity.Product;
 import java.util.List;
 
@@ -23,14 +23,14 @@ public class ProductService {
     }
 
     public Product createProduct(Product product){
-        return ProductDAO.getInstance().add(product);
+        return ProductDaoImpl.getInstance().add(product);
     }
 
     public  Product findProductById(int id){
-        return ProductDAO.getInstance().findById(id);
+        return ProductDaoImpl.getInstance().findById(id);
     }
 
     public List<Product> findAllProducts(){
-        return ProductDAO.getInstance().findAll();
+        return ProductDaoImpl.getInstance().findAll();
     }
 }

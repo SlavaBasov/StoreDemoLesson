@@ -1,5 +1,6 @@
-package com.example.dao;
+package com.example.dao.impl;
 
+import com.example.dao.UserDao;
 import com.example.dbconnection.DBConnection;
 import com.example.entity.Role;
 import com.example.entity.User;
@@ -8,23 +9,23 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDAO implements BaseDAO<User> {
+public class UserDaoImpl implements UserDao {
 
 
     public static final String FIND_USER = "SELECT * FROM user JOIN role r on r.id = user.role_id WHERE login=? AND password=?";
     public static final String FIND_ALL = "SELECT * FROM user JOIN role r on r.id = user.role_id";
     public static final String CREATE_USER = "INSERT INTO user (login, password, role_id) VALUES (?,?,?)";
 
-    public UserDAO() {
+    public UserDaoImpl() {
     }
 
-    private static volatile UserDAO INSTANCE = null;
+    private static volatile UserDaoImpl INSTANCE = null;
 
-    public static UserDAO getInstance() {
+    public static UserDaoImpl getInstance() {
         if (INSTANCE == null) {
-            synchronized (UserDAO.class) {
+            synchronized (UserDaoImpl.class) {
                 if (INSTANCE == null) {
-                    INSTANCE = new UserDAO();
+                    INSTANCE = new UserDaoImpl();
                 }
             }
         }
@@ -51,11 +52,6 @@ public class UserDAO implements BaseDAO<User> {
         return user;
     }
 
-    @Override
-    public User findById(int id) {
-        return null;
-    }
-
     public User findUser(String login, String password){
         User user = null;
         try(Connection connection = DBConnection.getConnection()) {
@@ -64,7 +60,7 @@ public class UserDAO implements BaseDAO<User> {
             statement.setString(2,password);
             ResultSet resultSet = statement.executeQuery();
             if (resultSet.next()) {
-                RoleDAO roleDAO = new RoleDAO();
+                RoleDaoImpl roleDAO = new RoleDaoImpl();
                 Role role = roleDAO.findById(resultSet.getInt(4));
                 user = new User(resultSet.getInt(1), resultSet.getString(2),
                         resultSet.getString(3), role);
@@ -81,7 +77,7 @@ public class UserDAO implements BaseDAO<User> {
             PreparedStatement statement = connection.prepareStatement(FIND_ALL);
             ResultSet resultSet = statement.executeQuery();
             while (resultSet.next()){
-                RoleDAO roleDAO = new RoleDAO();
+                RoleDaoImpl roleDAO = new RoleDaoImpl();
                 Role role = roleDAO.findById(resultSet.getInt(4));
                 users.add(new User(resultSet.getInt(1), resultSet.getString(2),
                         resultSet.getString(3), role));

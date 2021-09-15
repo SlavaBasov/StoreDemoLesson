@@ -1,6 +1,6 @@
 package com.example.service;
 
-import com.example.dao.UserDAO;
+import com.example.dao.impl.UserDaoImpl;
 import com.example.entity.User;
 
 public class UserService {
@@ -22,10 +22,10 @@ public class UserService {
     }
 
     public User createUser(User user){
-        return UserDAO.getInstance().add(user);
+        return UserDaoImpl.getInstance().add(user);
     }
 
     public User findUser(String login, String password){
-        return UserDAO.getInstance().findUser(login,password);
+        return UserDaoImpl.getInstance().findUser(login,password);
     }
 }

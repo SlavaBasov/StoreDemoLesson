@@ -5,21 +5,24 @@ public class Product {
     private String name;
     private String description;
     private int price;
+    private String imgPath;
 
     public Product() {
     }
 
-    public Product(String name, String description, int price) {
+    public Product(String name, String description, int price, String imgPath) {
         this.name = name;
         this.description = description;
         this.price = price;
+        this.imgPath = imgPath;
     }
 
-    public Product(int id, String name, String description, int price) {
+    public Product(int id, String name, String description, int price, String imgPath) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
+        this.imgPath = imgPath;
     }
 
     public int getId() {
@@ -54,6 +57,14 @@ public class Product {
         this.price = price;
     }
 
+    public String getImgPath() {
+        return imgPath;
+    }
+
+    public void setImgPath(String imgPath) {
+        this.imgPath = imgPath;
+    }
+
     @Override
     public String toString() {
         return "Product{" +
@@ -61,6 +72,7 @@ public class Product {
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
                 ", price=" + price +
+                ", imgPath='" + imgPath + '\'' +
                 '}';
     }
 }

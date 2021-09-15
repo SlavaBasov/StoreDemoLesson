@@ -1,5 +1,6 @@
-package com.example.dao;
+package com.example.dao.impl;
 
+import com.example.dao.RoleDao;
 import com.example.dbconnection.DBConnection;
 import com.example.entity.Role;
 
@@ -7,31 +8,25 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.List;
 
-public class RoleDAO implements BaseDAO<Role> {
+public class RoleDaoImpl implements RoleDao {
 
     public static final String FIND_ROLE_BY_ID = "SELECT * FROM role WHERE id=?";
 
-    public RoleDAO() {
+    public RoleDaoImpl() {
     }
 
-    private static volatile RoleDAO INSTANCE = null;
+    private static volatile RoleDaoImpl INSTANCE = null;
 
-    public static RoleDAO getInstance() {
+    public static RoleDaoImpl getInstance() {
         if (INSTANCE == null) {
-            synchronized (RoleDAO.class) {
+            synchronized (RoleDaoImpl.class) {
                 if (INSTANCE == null) {
-                    INSTANCE = new RoleDAO();
+                    INSTANCE = new RoleDaoImpl();
                 }
             }
         }
         return INSTANCE;
-    }
-
-    @Override
-    public Role add(Role role) {
-        return null;
     }
 
     @Override

@@ -17,7 +17,7 @@
     <h1>Products</h1>
     <c:forEach var="product" items="${requestScope.products}">
         <div class="card col-3" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+            <img src="${product.imgPath}" class="card-img-top" style="height: 200px" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${product.name}</h5>
                 <p class="card-text">${product.description}</p>

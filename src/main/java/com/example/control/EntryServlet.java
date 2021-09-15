@@ -1,8 +1,6 @@
 package com.example.control;
 
-import com.example.dao.ReceiptDAO;
-import com.example.entity.Receipt;
-import com.example.entity.Role;
+import com.example.dao.impl.ReceiptDaoImpl;
 import com.example.entity.Roles;
 import com.example.entity.User;
 import com.example.service.UserService;
@@ -13,7 +11,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.util.Locale;
 
 @WebServlet("/entry")
 public class EntryServlet extends HttpServlet {
@@ -29,7 +26,7 @@ public class EntryServlet extends HttpServlet {
         User user = UserService.getInstance().findUser(login, password);
         if (user != null){
             req.getSession().setAttribute("user",user);
-            ReceiptDAO.getInstance().deleteAll();
+            ReceiptDaoImpl.getInstance().deleteAll();
             req.getSession().setAttribute("receipt", null);
             if (user.getRole().getRole().toUpperCase().equals(Roles.ADMIN.toString())){
                 resp.sendRedirect("/admin");
