@@ -7,6 +7,12 @@
           crossorigin="anonymous">
 </head>
 <body>
-    ${requestScope.errormessage.toString()}
+    <div class="card mx-auto mt-5" style="width: 40rem;">
+        <div class="card-body">
+            <p>${sessionScope.error}</p>
+            <br>
+            <a href="${pageContext.request.contextPath}/entry" class="btn btn-outline-danger float-none" role="button">Back</a>
+        </div>
+    </div>
 </body>
 </html>

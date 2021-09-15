@@ -24,11 +24,12 @@ public class RegistrationServlet extends HttpServlet {
         String login = req.getParameter("login");
         String password = req.getParameter("password");
         User user = new User(login, password, new Role(Roles.USER.toString()));
-        if(UserService.getInstance().findUser(login,password)==null) {
+        if(UserService.getInstance().findUserByLogin(login)==null && password.length()>2 && login.length()>3) {
             User userWithId = UserService.getInstance().createUser(user);
             req.getSession().setAttribute("user", userWithId);
             resp.sendRedirect("/profile");
         } else {
+            req.getSession().setAttribute("error", "Incorrect data");
             resp.sendRedirect("/registration");
         }
     }

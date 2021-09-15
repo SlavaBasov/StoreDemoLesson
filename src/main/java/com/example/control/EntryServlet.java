@@ -23,18 +23,19 @@ public class EntryServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String login = req.getParameter("login");
         String password = req.getParameter("password");
-        User user = UserService.getInstance().findUser(login, password);
+        User user = UserService.getInstance().findUserByLoginAndPassword(login, password);
         if (user != null){
             req.getSession().setAttribute("user",user);
             ReceiptDaoImpl.getInstance().deleteAll();
-            req.getSession().setAttribute("receipt", null);
+
             if (user.getRole().getRole().toUpperCase().equals(Roles.ADMIN.toString())){
                 resp.sendRedirect("/admin");
             } else if (user.getRole().getRole().toUpperCase().equals(Roles.USER.toString())){
                 resp.sendRedirect("/profile");
             }
         } else {
-            resp.sendRedirect("/sign");
+            req.getSession().setAttribute("error", "Profile is not found");
+            resp.sendRedirect("/entry");
         }
     }
 }

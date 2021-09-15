@@ -25,7 +25,10 @@ public class UserService {
         return UserDaoImpl.getInstance().add(user);
     }
 
-    public User findUser(String login, String password){
-        return UserDaoImpl.getInstance().findUser(login,password);
+    public User findUserByLogin(String login){
+        return UserDaoImpl.getInstance().findUserByLogin(login);
+    }
+    public User findUserByLoginAndPassword(String login, String password){
+        return UserDaoImpl.getInstance().findUserByLoginAndPassword(login,password);
     }
 }

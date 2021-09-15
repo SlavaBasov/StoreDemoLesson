@@ -12,7 +12,8 @@ import java.util.List;
 public class UserDaoImpl implements UserDao {
 
 
-    public static final String FIND_USER = "SELECT * FROM user JOIN role r on r.id = user.role_id WHERE login=? AND password=?";
+    public static final String FIND_USER_BY_LOGIN = "SELECT * FROM user JOIN role r on r.id = user.role_id WHERE login=?";
+    public static final String FIND_USER_BY_LOGIN_AND_PASSWORD = "SELECT * FROM user JOIN role r on r.id = user.role_id WHERE login=? AND password=?";
     public static final String FIND_ALL = "SELECT * FROM user JOIN role r on r.id = user.role_id";
     public static final String CREATE_USER = "INSERT INTO user (login, password, role_id) VALUES (?,?,?)";
 
@@ -52,10 +53,30 @@ public class UserDaoImpl implements UserDao {
         return user;
     }
 
-    public User findUser(String login, String password){
+    @Override
+    public User findUserByLogin(String login) {
         User user = null;
         try(Connection connection = DBConnection.getConnection()) {
-            PreparedStatement statement = connection.prepareStatement(FIND_USER);
+            PreparedStatement statement = connection.prepareStatement(FIND_USER_BY_LOGIN);
+            statement.setString(1,login);
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                RoleDaoImpl roleDAO = new RoleDaoImpl();
+                Role role = roleDAO.findById(resultSet.getInt(4));
+                user = new User(resultSet.getInt(1), resultSet.getString(2),
+                        resultSet.getString(3), role);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return user;
+    }
+
+    @Override
+    public User findUserByLoginAndPassword(String login, String password) {
+        User user = null;
+        try(Connection connection = DBConnection.getConnection()) {
+            PreparedStatement statement = connection.prepareStatement(FIND_USER_BY_LOGIN_AND_PASSWORD);
             statement.setString(1,login);
             statement.setString(2,password);
             ResultSet resultSet = statement.executeQuery();

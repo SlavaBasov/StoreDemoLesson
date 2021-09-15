@@ -10,14 +10,14 @@
 </head>
 <body>
 <c:if test="${sessionScope.user == null}">
-    <c:import url="res/headers/headerNoneUser.jsp"></c:import>
+    <c:import url="headers/headerNoneUser.jsp"></c:import>
 </c:if>
 <c:if test="${sessionScope.user != null}">
-    <c:import url="res/headers/headerUser.jsp"></c:import>
+    <c:import url="headers/headerUser.jsp"></c:import>
 </c:if>
 
 <div class="container" style="margin-top: 20px">
-    <h2>Welcome to my store</h2>
+    <h2>Info about my store</h2>
 </div>
 </body>
 </html>

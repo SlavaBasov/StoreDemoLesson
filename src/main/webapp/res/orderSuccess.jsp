@@ -10,14 +10,16 @@
 </head>
 <body>
 <c:if test="${sessionScope.user == null}">
-    <c:import url="res/headers/headerNoneUser.jsp"></c:import>
+    <c:import url="headers/headerNoneUser.jsp"></c:import>
 </c:if>
 <c:if test="${sessionScope.user != null}">
-    <c:import url="res/headers/headerUser.jsp"></c:import>
+    <c:import url="headers/headerUser.jsp"></c:import>
 </c:if>
 
 <div class="container" style="margin-top: 20px">
-    <h2>Welcome to my store</h2>
+    <h2>Your order is successfully proccessed. Wait for a call from a specialist.</h2>
+    <a href="${pageContext.request.contextPath}/" class="btn btn-outline-danger float-none" role="button">Back to main page</a>
 </div>
+
 </body>
 </html>

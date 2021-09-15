@@ -24,7 +24,9 @@
                     <input type="password" class="form-control" id="inputPassword" name="password">
                 </div>
             </div>
+            <p>${sessionScope.error}</p>
             <button class="btn btn-success" type="submit">Submit</button>
+            <a href="${pageContext.request.contextPath}/" class="btn btn-outline-danger float-none" role="button">Main page</a>
         </form>
     </div>
 </div>
